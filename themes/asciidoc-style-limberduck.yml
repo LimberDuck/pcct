@@ -1,0 +1,30 @@
+#https://github.com/asciidoctor/asciidoctor-pdf/blob/main/docs/theming-guide.adoc
+#https://asciidoctor.org/docs/asciidoctor-pdf
+
+extends: default
+
+page:
+  layout: landscape
+  size: A4
+
+heading:
+  font-color: #FF6200
+
+title-page:
+    font-color: #FFFFFF
+    background-color: #000000
+    title:
+      font-color: #FF6200
+      top: 70%
+    subtitle:
+      font-color: #FF6200
+    authors:
+      font-color: #FFFFFF
+      content:
+        name_only: "{author}"
+        with_email: "{author} <{email}>"
+
+footer:
+  recto:
+    right:
+      content: ''

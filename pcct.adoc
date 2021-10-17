@@ -1,0 +1,189 @@
+= Product Comparison Chart: Template
+:description: Comparison
+:author:    Damian Krawczyk
+:email:     damian.krawczyk@limberduck.org
+:revdate:       {localdatetime}
+:revnumber:     0.0.1
+:revremark:     Initial version
+:toc: left
+:toclevels: 4
+:stylesheet: asciidoc-style-limberduck.css
+// :stylesheet: adoc-github.css
+// :stylesheet: asciidoctor-default.css
+:stylesdir: stylesheets
+:imagesdir: images
+:yes: &#10003;
+:no: &#10005;
+//:p: ~
+//:yes: image:check-yes.png[YES,20px,align="center", title="Yes"]
+//:yes: image:check-yes-m.png[YES,20px,align="center"]
+//:no: image:check-no.png[NO,20px, title="No"]
+//:no: X
+//:no: image:check-no-m.png[NO,20px]
+:depends: ~
+:sectanchors:
+//:sectlinks:
+:sectnums:
+:sectnumlevels: 3
+:pdf-theme: asciidoc-style-limberduck.yml
+:pdf-themesdir: themes
+:doctype: book
+//:pdf-fontsdir: fonts
+:table-stripes: hover
+//:title-logo-image: image:130866553_RF.jpg[pdfwidth=3.5in,align=center]
+:title-logo-image: image:logo.png[top=70%,pdfwidth=2in,align=left]
+//:title-page-background-image: image:130866553_RF.jpg[pdfwidth=3.5in,align=center]
+:title-page-background-image: image:MEDIUM-3_eyeem-100004637-125549522.jpg[top=0%,height=100%,align=center]
+:!toc-title:
+:icons: font
+
+//NOTE
+//TIP
+//IMPORTANT
+//CAUTION - to advise the reader to act carefully (i.e., exercise care).
+//WARNING - to inform the reader of danger, harm, or consequences that exist.
+//https://docs.asciidoctor.org/asciidoc/latest/blocks/admonitions/
+
+[CAUTION]
+====
+THIS DOCUMENT IS DURING DEVELOPMENT!
+====
+
+[NOTE]
+====
+Read this document in different formats:
+
+
+[cols="^,^",frame="topbot",options="noheader"]
+|===
+|https://example.com[PDF]
+|https://example.com[HTML]
+|===
+====
+
+[TIP]
+.Documentation as a Code - benefits
+====
+1. *Transparency* - tracking of changes.
+2. *Usability* - any target format from one source e.g. pdf document, slidedeck, static html, ebook, etc.
+3. *Flexibility* - content easy to extend with new comparison categories or new tools in the future.
+====
+
+:sectnums!:
+== Legned
+
+{yes} - *yes* - item meets the assumptions
+
+{no} - *no* - item does not meet the assumptions
+
+{depends} - *depends* - item meets the assumptions partially
+
+
+- *empty cell* - item is waiting for the assesment
+
+
+
+
+== Introduction
+
+Introduction
+
+
+== Comparison
+
+=== Heading 3
+
+==== Heading 4
+
+===== Heading 5
+
+.Overall perspective comparison chart - Heading 5
+[width="100%",cols=">.^2,^.^1,^.^1,^.^1,^.^1,^.^1",frame="topbot",options="header"]
+|===
+<.^|Heading 5  `2021-10-17 22:00:42 +0200`
+|Tool 1
+|Tool 2
+|Tool 3
+|Tool 4
+|Tool 5
+
+6+<s|Category 1 `2021-10-17 22:01:50 +0200`
+|Item 1
+|?
+|?
+|?
+|?
+|?
+|Item 2
+|?
+|?
+|?
+|?
+|?
+
+6+<s|Category 2 `2021-10-17 22:01:50 +0200`
+|Item 1
+|?
+|?
+|?
+|?
+|?
+
+6+<s|FINAL GRADE `2021-10-17 22:02:29 +0200`
+s|FINAL GRADE
+|{yes} |{yes} |{yes} |{depends} |{depends}
+|===
+
+
+
+==== Heading 4
+
+===== Heading 5
+
+.Overall perspective comparison chart - Heading 5
+[width="100%",cols=">.^2,^.^1,^.^1,^.^1,^.^1,^.^1",frame="topbot",options="header"]
+|===
+<.^|Heading 5  `2021-10-17 22:00:42 +0200`
+|Tool 1
+|Tool 2
+|Tool 3
+|Tool 4
+|Tool 5
+
+6+<s|Category 1 `2021-10-17 22:01:50 +0200`
+|Item 1
+|?
+|?
+|?
+|?
+|?
+|Item 2
+|?
+|?
+|?
+|?
+|?
+
+6+<s|Category 2 `2021-10-17 22:01:50 +0200`
+|Item 1
+|?
+|?
+|?
+|?
+|?
+
+6+<s|FINAL GRADE `2021-10-17 22:02:29 +0200`
+s|FINAL GRADE
+|{yes} |{yes} |{yes} |{depends} |{depends}
+|===
+
+
+
+
+:sectnums!:
+== Open Questions
+
+[qanda]
+Question?::
+Answer?
+
