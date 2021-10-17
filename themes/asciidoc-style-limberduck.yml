@@ -24,6 +24,10 @@ title-page:
         name_only: "{author}"
         with_email: "{author} <{email}>"
 
+table:
+  caption:
+    side: bottom
+
 footer:
   recto:
     right:
