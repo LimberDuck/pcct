@@ -100,14 +100,16 @@ Introduction
 .Overall perspective comparison chart - Heading 5
 [width="100%",cols=">.^2,^.^1,^.^1,^.^1,^.^1,^.^1",frame="topbot",options="header"]
 |===
-<.^|Heading 5  `2021-10-17 22:00:42 +0200`
+<.^|Heading 5 +
+`2021-10-17 22:00:42 +0200`
 |Tool 1
 |Tool 2
 |Tool 3
 |Tool 4
 |Tool 5
 
-6+<s|Category 1 `2021-10-17 22:01:50 +0200`
+6+<s|Category 1 +
+`2021-10-17 22:01:50 +0200`
 |Item 1
 |?
 |?
@@ -121,7 +123,8 @@ Introduction
 |?
 |?
 
-6+<s|Category 2 `2021-10-17 22:01:50 +0200`
+6+<s|Category 2 +
+`2021-10-17 22:01:50 +0200`
 |Item 1
 |?
 |?
@@ -129,7 +132,8 @@ Introduction
 |?
 |?
 
-6+<s|FINAL GRADE `2021-10-17 22:02:29 +0200`
+6+<s|FINAL GRADE +
+`2021-10-17 22:02:29 +0200`
 s|FINAL GRADE
 |{yes} |{yes} |{yes} |{depends} |{depends}
 |===
@@ -143,14 +147,16 @@ s|FINAL GRADE
 .Overall perspective comparison chart - Heading 5
 [width="100%",cols=">.^2,^.^1,^.^1,^.^1,^.^1,^.^1",frame="topbot",options="header"]
 |===
-<.^|Heading 5  `2021-10-17 22:00:42 +0200`
+<.^|Heading 5  +
+`2021-10-17 22:00:42 +0200`
 |Tool 1
 |Tool 2
 |Tool 3
 |Tool 4
 |Tool 5
 
-6+<s|Category 1 `2021-10-17 22:01:50 +0200`
+6+<s|Category 1 +
+`2021-10-17 22:01:50 +0200`
 |Item 1
 |?
 |?
@@ -164,7 +170,8 @@ s|FINAL GRADE
 |?
 |?
 
-6+<s|Category 2 `2021-10-17 22:01:50 +0200`
+6+<s|Category 2 +
+`2021-10-17 22:01:50 +0200`
 |Item 1
 |?
 |?
@@ -172,7 +179,8 @@ s|FINAL GRADE
 |?
 |?
 
-6+<s|FINAL GRADE `2021-10-17 22:02:29 +0200`
+6+<s|FINAL GRADE +
+`2021-10-17 22:02:29 +0200`
 s|FINAL GRADE
 |{yes} |{yes} |{yes} |{depends} |{depends}
 |===
