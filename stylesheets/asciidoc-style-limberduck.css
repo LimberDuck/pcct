@@ -8,7 +8,7 @@
     --LimberDuckColor: #FF6200;
 
     /*LimberDuck Fonts*/
-    --LimberDuckFont: Arial;
+    --LimberDuckFont: Arial, sans-serif;
 }
 
 *{
