@@ -28,7 +28,7 @@
 :pdf-theme: asciidoc-style-limberduck.yml
 :pdf-themesdir: themes
 :doctype: book
-//:pdf-fontsdir: fonts
+:pdf-fontsdir: fonts
 :table-stripes: hover
 //:title-logo-image: image:130866553_RF.jpg[pdfwidth=3.5in,align=center]
 :title-logo-image: image:logo.png[top=70%,pdfwidth=2in,align=left]

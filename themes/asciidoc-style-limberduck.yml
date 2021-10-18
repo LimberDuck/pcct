@@ -7,9 +7,6 @@ page:
   layout: landscape
   size: A4
 
-heading:
-  font-color: #FF6200
-
 title-page:
     font-color: #FFFFFF
     background-color: #000000
@@ -32,3 +29,33 @@ footer:
   recto:
     right:
       content: ''
+
+font:
+  catalog:
+    Noto Serif:
+      normal: GEM_FONTS_DIR/notoserif-regular-subset.ttf
+      bold: GEM_FONTS_DIR/notoserif-bold-subset.ttf
+      italic: GEM_FONTS_DIR/notoserif-italic-subset.ttf
+      bold_italic: GEM_FONTS_DIR/notoserif-bold_italic-subset.ttf
+    # M+ 1mn supports ASCII and the circled numbers used for conums
+    M+ 1mn:
+      normal: GEM_FONTS_DIR/mplus1mn-regular-subset.ttf
+      bold: GEM_FONTS_DIR/mplus1mn-bold-subset.ttf
+      italic: GEM_FONTS_DIR/mplus1mn-italic-subset.ttf
+      bold_italic: GEM_FONTS_DIR/mplus1mn-bold_italic-subset.ttf
+    OpenSans:
+      normal: opensans-normal.ttf
+      italic: opensans-italic.ttf
+      bold: opensans-bold.ttf
+      bold_italic: opensans-bold_italic.ttf
+    Arial:
+      normal: arial-normal.ttf
+      italic: arial-italic.ttf
+      bold: arial-bold.ttf
+      bold_italic: arial-bold_italic.ttf
+
+base:
+  font_family: Arial
+heading:
+  font-color: #FF6200
+  font-family: Arial

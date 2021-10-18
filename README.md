@@ -8,3 +8,19 @@ Product Comparison Chart Template
 2. generate slidedeck
 
     `asciidoc --backend slidy -o product-comparison-chart-slidedeck.html product-comparison-chart.adoc`
+   
+3. Configuration
+
+    - Font-Based Icons
+    
+        https://asciidoctor.org/docs/asciidoctor-pdf/#font-based-icons
+
+4. PDF customization
+
+   - font 
+   
+      https://www.wimdeblauwe.com/blog/2019/2019-12-20-customization-of-asciidoctor-pdf-output/
+
+      https://github.com/asciidoctor/asciidoctor-pdf/blob/v1.5.0.beta.5/docs/theming-guide.adoc#custom-fonts
+
+      https://github.com/asciidoctor/asciidoctor-pdf/blob/v1.5.0.beta.5/docs/theming-guide.adoc#preparing-a-custom-font
