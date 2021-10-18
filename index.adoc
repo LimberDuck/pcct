@@ -75,10 +75,11 @@ THIS DOCUMENT IS DURING DEVELOPMENT!
 Read this document in different formats:
 
 
-[cols="^,^",frame="topbot",options="noheader"]
+[cols="^,^,^",frame="topbot",options="noheader"]
 |===
-|https://example.com[PDF]
-|https://example.com[HTML]
+|https://github.com/LimberDuck/pcct/blob/gh-pages/ebook.pdf[PDF]
+|https://limberduck.github.io/pcct/[HTML]
+|https://github.com/LimberDuck/pcct/blob/main/index.adoc[ADOC]
 |===
 ====
 
