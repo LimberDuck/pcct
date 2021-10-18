@@ -12,15 +12,19 @@
 // :stylesheet: asciidoctor-default.css
 :stylesdir: stylesheets
 :imagesdir: images
-:yes: &#10003;
-:no: &#10005;
+//:yes: &#10003;
+:yes: icon:check-circle[set=fas,role="green",title="Yes"]
+//:no: &#10005;
+:no: icon:times-circle[set=fas,role="red",title="No"]
 //:p: ~
 //:yes: image:check-yes.png[YES,20px,align="center", title="Yes"]
 //:yes: image:check-yes-m.png[YES,20px,align="center"]
 //:no: image:check-no.png[NO,20px, title="No"]
 //:no: X
 //:no: image:check-no-m.png[NO,20px]
-:depends: ~
+//:depends: ~
+:depends: icon:question-circle[set=fas,role="yellow",title="depends"]
+:square: []
 :sectanchors:
 //:sectlinks:
 :sectnums:
@@ -61,7 +65,8 @@ endif::[]
 ====
 THIS DOCUMENT IS DURING DEVELOPMENT!
 
-icon:google[set=pf]
+
+
 
 ====
 
@@ -95,7 +100,7 @@ Read this document in different formats:
 {depends} - *depends* - item meets the assumptions partially
 
 
-- *empty cell* - item is waiting for the assesment
+{square} - *empty cell* - item is waiting for the assesment
 
 
 
@@ -151,7 +156,7 @@ Introduction
 6+<s|FINAL GRADE +
 `2021-10-17 22:02:29 +0200`
 s|FINAL GRADE
-|{yes} |{yes} |{yes} |{depends} |{depends}
+|{yes} |{yes} |{no} |{depends} |{depends}
 |===
 
 
@@ -198,7 +203,7 @@ s|FINAL GRADE
 6+<s|FINAL GRADE +
 `2021-10-17 22:02:29 +0200`
 s|FINAL GRADE
-|{yes} |{yes} |{yes} |{depends} |{depends}
+|{yes} |{yes} |{no} |{depends} |{depends}
 |===
 
 

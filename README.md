@@ -15,6 +15,8 @@ Product Comparison Chart Template
     
         https://asciidoctor.org/docs/asciidoctor-pdf/#font-based-icons
 
+        https://blog.mrhaki.com/2014/06/awesome-asciidoc-use-inline-icons.html
+
 4. PDF customization
 
    - font 
