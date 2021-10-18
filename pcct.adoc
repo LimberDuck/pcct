@@ -36,6 +36,11 @@
 :title-page-background-image: image:MEDIUM-3_eyeem-100004637-125549522.jpg[top=0%,height=100%,align=center]
 :!toc-title:
 :icons: font
+:icon-set: fas
+:icon-set: fab
+:icon-set: far
+:icon-set: fi
+:icon-set: pf
 
 //NOTE
 //TIP
@@ -55,6 +60,9 @@ endif::[]
 [CAUTION]
 ====
 THIS DOCUMENT IS DURING DEVELOPMENT!
+
+icon:google[set=pf]
+
 ====
 
 [NOTE]
