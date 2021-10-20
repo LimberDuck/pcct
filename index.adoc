@@ -59,6 +59,9 @@ ifdef::env-github[]
 :important-caption: :heavy_exclamation_mark:
 :caution-caption: :fire:
 :warning-caption: :warning:
+:yes: :white_check_mark:
+:no: :x:
+:depends: :question:
 endif::[]
 
 [CAUTION]
