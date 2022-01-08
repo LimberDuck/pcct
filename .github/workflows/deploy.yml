@@ -11,11 +11,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: test
-        run: |
-          pwd
-          whoami
-
       - name: Install
         run: |
           sudo apt-get install -y asciidoctor
@@ -24,8 +19,7 @@ jobs:
       
       - name: PATH set
         run: |
-          PATH="/home/runner/.gem/ruby/2.7.0/bin:${PATH}"
-          export PATH
+          export PATH="/home/runner/.gem/ruby/2.7.0/bin:$PATH"
 
       - name: Build
         run: |
