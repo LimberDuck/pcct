@@ -5,7 +5,7 @@
 
 Product Comparison Chart Template
 
-GitHub Action's Workflow ([.github/workflows/deploy.yml](https://github.com/LimberDuck/pcct/blob/main/.github/workflows/deploy.yml)) used to:
+GitHub Action [Deploy to GitHub Pages](https://github.com/marketplace/actions/deploy-to-github-pages) (see Workflow file definition [.github/workflows/deploy.yml](https://github.com/LimberDuck/pcct/blob/main/.github/workflows/deploy.yml)) used to:
 - generate [adoc](https://github.com/LimberDuck/pcct/blob/main/pcct.adoc) to [html](https://github.com/LimberDuck/pcct/blob/gh-pages/index.html)
 - generate [adoc](https://github.com/LimberDuck/pcct/blob/main/pcct.adoc) to [pdf](https://github.com/LimberDuck/pcct/blob/gh-pages/pcct.pdf)
 - generate [adoc](https://github.com/LimberDuck/pcct/blob/main/pcct.adoc) to [epub](https://github.com/LimberDuck/pcct/blob/gh-pages/pcct.epub)
