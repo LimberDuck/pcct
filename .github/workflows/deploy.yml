@@ -19,7 +19,9 @@ jobs:
       
       - name: PATH set
         run: |
+          ls /home/runner/.gem/ruby/2.7.0/bin
           export PATH="/home/runner/.gem/ruby/2.7.0/bin:$PATH"
+          echo $PATH
 
       - name: Build
         run: |
