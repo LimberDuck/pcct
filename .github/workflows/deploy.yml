@@ -20,8 +20,12 @@ jobs:
         run: |
           sudo apt-get install -y asciidoctor
           gem install asciidoctor-pdf --user-install
-          ls -la /home/runner/.gem/ruby
           gem install asciidoctor-epub3 --user-install
+      
+      - name: PATH set
+        run: |
+          PATH="/home/runner/.gem/ruby/2.7.0/bin:${PATH}"
+          export PATH
 
       - name: Build
         run: |
