@@ -80,9 +80,9 @@ Read this document in different formats:
 
 [cols="^,^,^",frame="topbot",options="noheader"]
 |===
-|https://github.com/LimberDuck/pcct/blob/gh-pages/ebook.pdf[PDF]
+|https://limberduck.github.io/pcct/pcct.pdf[PDF]
 |https://limberduck.github.io/pcct/[HTML]
-|https://github.com/LimberDuck/pcct/blob/main/index.adoc[ADOC]
+|https://github.com/LimberDuck/pcct/blob/main/pcct.adoc[ADOC]
 |===
 ====
 
