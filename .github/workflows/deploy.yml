@@ -15,12 +15,15 @@ jobs:
         run: |
           pwd
           whoami
-          ls -la /home/runner/.gem/ruby
+          ls -la /home/runner/
+          ls -la /home/runner/work/
 
       - name: Install
         run: |
           sudo apt-get install -y asciidoctor
           gem install asciidoctor-pdf --user-install
+          ls -la /home/runner/
+          ls -la /home/runner/work/
           gem install asciidoctor-epub3 --user-install
 
       - name: Build
