@@ -16,17 +16,11 @@ jobs:
           sudo apt-get install -y asciidoctor
           gem install asciidoctor-pdf --user-install
           gem install asciidoctor-epub3 --user-install
-      
-      - name: PATH set
-        run: |
-          ls /home/runner/.gem/ruby/2.7.0/bin
-          export PATH="/home/runner/.gem/ruby/2.7.0/bin:$PATH"
-          echo $PATH
 
       - name: Build
         run: |
+          export PATH="/home/runner/.gem/ruby/2.7.0/bin:$PATH"
           asciidoctor pcct.adoc -o index.html -D build
-          echo $PATH
           asciidoctor-pdf pcct.adoc -D build
           asciidoctor-epub3 pcct.adoc -D build
 
