@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "adoc to html",
+            "type": "shell",
+            "command": "asciidoctor ${file} -o index.html -D build"
+        },
+        {
+            "label": "adoc to pdf",
+            "type": "shell",
+            "command": "asciidoctor-pdf ${file} -D build"
+        },
+        {
+            "label": "adoc to epub",
+            "type": "shell",
+            "command": "asciidoctor-epub3 ${file} -D build"
+        },
+        {
+            "label": "adoc to html pdf epub",
+            "type": "shell",
+            "command": "asciidoctor ${file} -o index.html -D build; asciidoctor-pdf ${file} -D build; asciidoctor-epub3 ${file} -D build"
+        },
+    ]
+}
