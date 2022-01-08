@@ -26,7 +26,9 @@ jobs:
       - name: Build
         run: |
           asciidoctor pcct.adoc -o index.html -D build
+          echo $PATH
           asciidoctor-pdf pcct.adoc -D build
+          asciidoctor-epub3 pcct.adoc -D build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.2.0
