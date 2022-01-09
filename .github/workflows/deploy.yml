@@ -4,6 +4,8 @@ on:
     branches: [ master, main ]
   pull_request:
     branches: [ master, main ]
+env:
+  source_file_name: pcct
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -17,9 +19,9 @@ jobs:
 
       - name: Build
         run: |
-          asciidoctor pcct.adoc -o index.html -D build
-          asciidoctor-pdf pcct.adoc -D build
-          asciidoctor-epub3 pcct.adoc -D build
+          asciidoctor ${{ env.source_file_name }}.adoc -o index.html -D build
+          asciidoctor-pdf ${{ env.source_file_name }}.adoc -D build
+          asciidoctor-epub3 ${{ env.source_file_name }}.adoc -D build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.2.0
