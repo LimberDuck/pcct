@@ -13,9 +13,7 @@ jobs:
 
       - name: Install
         run: |
-          sudo apt-get install -y asciidoctor
-          sudo gem install asciidoctor-pdf
-          sudo gem install asciidoctor-epub3
+          sudo gem install asciidoctor asciidoctor-pdf asciidoctor-epub3
 
       - name: Build
         run: |
