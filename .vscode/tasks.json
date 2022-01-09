@@ -7,6 +7,11 @@
             "command": "asciidoctor ${file} -o index.html -D build"
         },
         {
+            "label": "adoc to html and open",
+            "type": "shell",
+            "command": "asciidoctor ${file} -o index.html -D build; open build/index.html"
+        },
+        {
             "label": "adoc to pdf",
             "type": "shell",
             "command": "asciidoctor-pdf ${file} -D build"
